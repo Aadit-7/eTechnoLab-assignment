@@ -12,7 +12,7 @@ export default function ContactForm() {
   const onSubmit = (data) => {
     console.log("Form Data:", data);
     alert("Form submitted successfully!");
-    reset(); // Reset form after submission
+    reset(); 
   };
 
   return (
